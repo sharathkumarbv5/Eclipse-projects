@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="t1" class="com.kodnest.bean.Employee">
+		<property name="technologies">
+			<list>
+				<value>CSS</value>
+				<value>HTML</value>
+				<value>JAVA</value>
+				<value>MYSQL</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="t2" class="com.kodnest.bean.Employee">
+		<property name="project">
+			<set>
+				<value>Project-1</value>
+				<value>Project-2</value>
+				<value>Project-3</value>
+				<value>Project-4</value>
+			</set>
+		</property>
+	</bean>
+	<bean id="t3" class="com.kodnest.bean.Employee">
+		<property name="organisation">
+			<map>
+				<entry key="1" value="Kodnest"></entry>
+				<entry key="2" value="IBM"></entry>
+				<entry key="3" value="INFO"></entry>
+				<entry key="4" value="GOOGLE"></entry>
+				<entry key="5" value="TESCO"></entry>
+				<entry key="6" value="CAP"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>
+			

@@ -1,0 +1,9 @@
+package com.kn.randomsolutions;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
